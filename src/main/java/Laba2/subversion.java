@@ -57,7 +57,7 @@ Buba bubble = new Buba(10);
 String arrayStr = bubble.getStringArray();
 bubble.bubbleSorter();
 String arraySorted = arrayStr + " \nSorted: "+bubble.getStringArray();
-JOptionPane.showMessageDialog(main_panel, "Здесь размещаются ФИО и номера зачетных книжек \n Список участников команды: \n 1) Логинова Анастасия Валентиновна (19170029). 23.09.2021 \n 2) Хайруллина Элина Маратовна (19170002). \n" +arraySorted+" \n" + file_data);
+JOptionPane.showMessageDialog(main_panel, "Здесь размещаются ФИО и номера зачетных книжек \n Список участников команды: \n 1) Логинова Анастасия Валентиновна (19170029). 23.09.2021 \n 2) Хайруллина Элина Маратовна (19170002). 23.09.2021 \n" +arraySorted+" \n" + file_data);
 }
 
 
