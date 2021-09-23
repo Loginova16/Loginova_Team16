@@ -42,7 +42,7 @@ JLabel laba_info = new JLabel("Лабораторная работа №4"); // Отображение текста и
 laba_info.setBounds(120,0,150,30);
 main_panel.add(laba_info);
 
-JButton button_exit = new JButton("Выход"); // добавляем кнопку
+JButton button_exit = new JButton("Выход"); // добавляем кнопку.
 button_exit.setBounds(270,200,100,40);
 ActionListener actionListener = new ListenerButton(); //создаем слушатель
 button_exit.addActionListener(actionListener); // добавляем слушатель к кнопке
